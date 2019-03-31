@@ -1,0 +1,329 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+body
+{
+	background: url(wallpaper.jpg);
+}
+.fiend1
+{
+	position: absolute;
+	width: 500px;
+	left: 0px;
+	bottom: 120px;
+	transform: scaleX(-1)
+}
+.fiend2
+{
+	position: absolute;
+	width: 330px;
+	left: 260px;
+	bottom: 0
+}
+.fiend3
+{
+	position: absolute;
+	width: 320px;
+	left: 0;
+	bottom: 0;
+	transform: scaleX(-1)
+}
+.fiend4
+{
+	position: absolute;
+	width: 110px;
+	left: 150px;
+	bottom: 20px
+}
+.fiend5
+{
+	position: absolute;
+	width: 220px;
+	left: 100px;
+	bottom: 0
+}
+.fiend6
+{
+	position: absolute;
+	width: 190px;
+	left: 220px;
+	bottom: 0;
+	transform: scaleX(-1)
+}
+.fiend7
+{
+	position: absolute;
+	width: 250px;
+	left: 330px;
+	bottom: 0;
+	transform;	
+}
+.chaos12
+{
+	transition: 2s
+}
+
+a
+{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	font-size: 24px;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: skyblue;
+	border: 2px solid black;
+	padding: 20px;
+}
+
+.points1
+{
+	position: absolute;
+	text-align: center;
+	background-color: black;
+	border: 3px solid orange;
+	color: crimson;
+	margin-left: 80px;
+	margin-top: 15px;
+	font-size: 40px;
+}
+.points2
+{
+	position: absolute;
+	text-align: center;
+	background-color: black;
+	border: 3px solid orange;
+	color: crimson;
+	margin-left: 90px;
+	margin-top: 15px;
+	font-size: 40px;
+}
+.sidebar1
+{
+	margin-top: 150px;
+	position: absolute;
+	height: 550px;
+	width: 100%;
+	background-color: black
+}
+.board
+{
+	margin-left: 15px;
+	margin-top: 10px;
+	width: 95%;
+	height: 75px;
+	background-color: rgb(171,15,33);
+	position: absolute;
+	border: 5px solid rgb(34,19,15);
+}
+.btn1,.btn2,.btn3,.btn4,.btn5
+{
+	margin-left: 283px;
+	width: 90%;
+	height: 75px;
+	background-color: rgb(171,15,33);
+	position: absolute;
+	border-radius: 5px;
+	border: 5px solid rgb(34,19,15);
+	transition: .3s
+}
+.btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover,.btn5:hover
+{
+	margin-left: 283px;
+	width: 90%;
+	height: 75px;
+	background-color: orange;
+	position: absolute;
+	border-radius: 5px;
+	border: 5px solid rgb(34,19,15);
+}
+.btn1 .item,.btn2 .item,.btn3 .item,.btn4 .item,.btn5 .item
+{
+	top: 7px;
+	width: 70px;
+	height: 50px;
+	background-color: black;
+	position: absolute;
+	color: white;
+	border: 3px solid rgb(252,151,4);
+	text-align: center;
+	transition: .5s
+}
+.btn1 .item:hover,.btn2 .item:hover,.btn3 .item:hover,.btn4 .item:hover,.btn5 .item:hover
+{
+	top: 7px;
+	width: 70px;
+	height: 50px;
+	background-color: crimson;
+	position: absolute;
+	color: black;
+	border: 3px solid black;
+	text-align: center;
+}
+.btn1
+{
+	margin-top: 150px;
+}
+.btn2
+{
+	
+	margin-top: 230px;
+}
+.btn3
+{
+	margin-top: 310px;
+}
+.btn4
+{
+	margin-top: 390px;
+}
+
+.btn5
+{
+	margin-top: 470px;
+}
+input
+{
+	font-family: impact
+}
+.des
+{
+	top: 12px;
+	position: absolute;
+	margin-left: 100px;
+	color: black;
+	font-weight: bold;
+	transition: .5s
+}
+.des:hover
+{
+	top: 12px;
+	position: absolute;
+	margin-left: 100px;
+	color: white;
+	font-weight: bold;
+}
+
+.monster
+{
+	width: 100%;
+	height: 450px;
+	position: absolute;
+	margin-top: 50px;
+}
+
+.place
+{
+	margin-top: 300px;
+	position: absolute;
+	background-color: none;
+}
+#buy1,#buy2,#buy3,#buy4,#buy5,#buy6,#buy7
+{
+	padding: 10px;
+	margin: 10px 3px;
+	background-color: rgb(217,143,31);
+	border: 2px solid black;
+	font-family: sans-serif;
+	border-left-width: 13px;
+	transition: .5s
+}
+#buy1:hover,#buy2:hover,#buy3:hover,#buy4:hover,#buy5:hover,#buy6:hover,#buy7:hover
+{
+	padding: 10px;
+	margin: 10px 3px;
+	background-color: black;
+	border: 2px solid crimson;
+	font-family: sans-serif;
+	border-left-width: 13px;
+	color: white;
+	cursor: pointer;
+}
+.label1
+{
+	width: 50px;
+	height: 50px;
+	margin-top: 27px;
+	position: absolute;
+}
+.label2
+{
+	width: 50px;
+	height: 50px;
+	margin-top: 27px;
+	position: absolute;
+	color: crimson
+}
+.summon
+{
+	width: 500PX;
+	height: 50px;
+	position: absolute;
+	margin-top: 90px;
+	margin-left: 130px;
+	font-weight: bold;
+	color: gray;
+}
+.ste
+{
+	border: 3px solid orange;
+	width: 500PX;
+	height: 50px;
+	position: absolute;
+	margin-top: 90px;
+	margin-left: 125px;
+	font-weight: bold;
+	background-color: black;
+}
+.move1 
+{
+	margin-top: 90px;
+	margin-left: 140px;
+	width: 200px;
+	height: 50px;
+	background-color: red;
+	position: absolute;
+  	animation-name: one;
+  	animation-duration: 10s;
+ 	animation-iteration-count: infinite;
+}
+@-webkit-keyframes one 
+{
+ 	0%   {background-color:crimson; left:0px; top:0px;}
+  	25%  {background-color:orange; left:300px; top:0px;}
+  	50%  {background-color:crimson; left:0px; top:0px;}
+  	75%  {background-color:orange; left:300px; top:0px;}
+  	100% {background-color:crimson; left:0px; top:0px;}
+}
+.round
+{
+	width: 100px;
+	height: 100px;
+	margin-top: 450px;
+	position: absolute;
+	margin-left: 30px;
+}
+.round img
+{
+	border: solid 5px black;
+}
+.note
+{
+	width: 400px;
+	height: 100px;
+	border: solid 5px white;
+	background-color: black;
+	margin-top: 450px;
+	position: absolute;
+	margin-left: 150px;
+	color: rgb(217,143,31)
+}
+.note h3
+{
+	margin-top: 25px;
+}
+
+
